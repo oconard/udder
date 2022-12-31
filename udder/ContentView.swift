@@ -8,7 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+   
     var body: some View {
+        Form {
+           Text("email")
+        }
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
@@ -19,8 +24,10 @@ struct ContentView: View {
     }
 }
 
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
+       
         ContentView()
     }
 }
